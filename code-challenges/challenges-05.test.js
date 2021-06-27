@@ -68,7 +68,7 @@ Note: You may not use the array's built-in length property.
 const countNumberOfElements = (arr) => {
   // Solution code here...
   let counter=0;
-  let count=arr.reduce((acc,val,ind)=>{
+  let count=arr.reduce((acc,val)=>{
     acc=acc+val;
     counter++;
   },0);
