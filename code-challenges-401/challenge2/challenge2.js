@@ -1,5 +1,6 @@
 'use strict';
 
+
 function binary(arr, key) {
     let sta = 0;
     let finsh = arr.length - 1;
@@ -16,3 +17,4 @@ function binary(arr, key) {
     return -1;
 }
 module.exports = binary;
+
