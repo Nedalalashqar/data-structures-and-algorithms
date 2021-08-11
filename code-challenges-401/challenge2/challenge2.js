@@ -1,18 +1,20 @@
 'use strict';
 
-let chaArr = [a,b,d,e]
 
-function testArr(chaArr,val){
-    let newChaArr=[];
-    let midChaArr = Math.round(chaArr.length/2);
-    chaArr.forEach((el,idx)=>{
-        if(idx!== midChaArr){
-            newChaArr.push(el)
-        }else{
-            newChaArr.push(val)
-            newChaArr.push(el)
+function binary(arr, key) {
+    let sta = 0;
+    let finsh = arr.length - 1;
+    while (sta <= finsh) {
+        let mid = Math.ceil((sta + finsh)/2);
+        if (arr[mid] === key) {
+            return mid;
+        } else if (arr[mid] < key) {
+            sta = mid + 1;
+        } else {
+            finsh = mid - 1;
         }
-    })
-    return newChaArr
+    }
+    return -1;
 }
-console.log(testArr(chaArr,c));
+module.exports = binary;
+
