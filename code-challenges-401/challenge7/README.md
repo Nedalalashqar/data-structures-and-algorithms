@@ -3,8 +3,8 @@
 **write a class to add nodes on linked list insert , found if the the nodes are on the linked list or not add node to first and to end .**
 ## Whiteboard Process
 <!-- Embedded whiteboard image -->
-![](../C7_401js/img/linked.png)
-![](../C7_401js/img/test.png)
+![](https://i.ibb.co/phf5nCY/code7.png)
+
 
 ## Approach & Efficiency
 <!-- What approach did you take? Why? What is the Big O space/time for this approach? -->
