@@ -1,33 +1,15 @@
-
-
-
-
-# Queue with stack
-
-## Challenge
-
->Implement a Queue using two Stacks.
-
-## Approach & Efficiency
-> Space : O(n)
-> Time : O(n)
-
+# Animal Shalter
+> in this problem we just want to create class called AnimalShelter which holds only dogs and cats objects .
 
 ## API
-1. Stack
+> enqueue(value) : inserts object into the queue, using a first-in, first-out approach.
+> dequeue() : extracts a object from the PseudoQueue, using a first-in, first-out approach then return it .
 
-* push(): look at the first available index and add the element there.
-* pop(): remove from the top of the stack.
-* peek(): shows which element would be removed next, but doesnot actually remove it.
-* size(): it will look at the size variable.
-* isEmpty(): return whether or not there is an elements in the the stack.
+## Approach & Efficiency
+> enqueue (object) : using the enqueue method to the queue
+> big O time :O ( 1 ) space :O ( 1 )
 
-2. Queue
-* enqueue(): add element to the queue.
-* dequeue(): it will remove the first element enqueued to the queue.
-* peek(): return the first added without removing it.
-* empty(): checks whether if the the queue is empty or not.
+> dequeue () : using the dequeue methode
+> big O time :O( 1 ) space :O (1)
 
-
-![whiteboard](https://i.ibb.co/bQPHvQF/code11.png)
 
